@@ -25,4 +25,3 @@ function Card(props) {
 
 export default Card
 
-1.57

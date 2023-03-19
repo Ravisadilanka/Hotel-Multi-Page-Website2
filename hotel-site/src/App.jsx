@@ -10,6 +10,9 @@ import SinglePage from './SinglePage/SinglePage'
 import Blog from './components/Blog/Blog'
 import BlogSingle from './components/Blog/blog-single-page/BlogSingle'
 import Testimonial from './components/Testimonial/Testimonial'
+import Contact from './components/Contact/Contact'
+import Login from './components/Login/Login'
+import Register from './components/Login/Register'
 
 function App() {
 
@@ -27,6 +30,9 @@ function App() {
           <Route path='/blog' Component={Blog}></Route>
           <Route path='/blogsingle/:id' Component={BlogSingle}></Route>
           <Route path='/testimonials' Component={Testimonial}></Route>
+          <Route path='/contact' Component={Contact}></Route>
+          <Route path='/sign-in' Component={Login}></Route>
+          <Route path='/register' Component={Register}></Route>
         </Routes>
       </Router>
     </>
